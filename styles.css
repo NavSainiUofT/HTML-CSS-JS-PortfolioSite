@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+.vertical-center {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 3;
+}
+
+/* Links inside the navbar */
+.navbar a {
+	font-family: 'Source Code Pro', monospace;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.jumbotron {
+  margin-top: 60px; /* Add a top margin to avoid content overlay */
+}
+
+
+#logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+}
+/* retrieved from: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp; 
+/* Style all font awesome icons */
+
+.footer{
+	text-align: center;
+	width: 100%;
+}
+.cmd-top{
+	background-color: #cccccc;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+.cmd{
+	background-color: #383737;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	margin-bottom: 10px;
+}
+#cmd-text{
+	padding-left: 20px;
+	font-family: 'Source Code Pro', monospace;
+	justify-content: left;
+	text-align: left;
+	color: white;
+}
+#me .progress{
+	height: 60%;
+}
+
+#me .barholder{
+	margin-top: 10px;
+	margin-bottom: 10px
+}
+#oop .progress-bar{
+	background-color: #000000;
+	opacity: 0.7
+	
+}
+#web .progress-bar{
+	background-color: #000000;
+	opacity: 0.7
+
+}
+#db .progress-bar{
+	background-color: #080808;
+	opacity: 0.7
+
+}
+#alg .progress-bar{
+	background-color: #000000;
+	opacity: 0.7
+
+}
+
+#photoshop-premiere .progress-bar{
+	background-color: #000000;
+	opacity: 0.7
+	
+
+}
+
+#ux .progress-bar{
+	background-color: #000000;
+	opacity: 0.7
+
+}
+#ui .progress-bar{
+	background-color: #000000;
+	opacity: 0.7
+
+
+}
+
+.schoolpic{
+	display: block;
+	justify-content: center;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+}
+.school-bio{
+	 text-align: justify-left; /* For Edge */
+	 margin-left: 20px;
+	 margin-top:20px;
+}
+.fullscreen{
+	min-height: 100vh;
+}
